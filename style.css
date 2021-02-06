@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    
+        padding: 35px;
+        background-color: darkseagreen;
+        text-align: right;
+}
+.h1{
+    text-align:center;
+    font-family:'Lobster, cursiva';
+}
+.worshop{
+    background: linear-gradient(to bottom, #cc99ff 0%, #ff9999 100%);
+}
+
+
+.text{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(225, 238, 190);
+}
+
+
+
+.container-titulo{
+    width:65px;
+    height:65px;
+    text-align: left;
+    
+}
+
+.direccion{
+
+    background-color: rgb(243, 137, 137);
+    text-align:center;
+
+}
+
+/*tarjeta*/
+.card-border{
+    border:solid 10px white;
+border-radius:20px;
+overflow:hidden;
+transition:allease-out 0.2S;
+
+}
+.card-border:hover{
+    transform:scale(1.05);
+
+
+}
